@@ -11,9 +11,7 @@ Routes Include:
 
  * Use **GET** to obtain complete items: https://localhost:7097/groceryitems/complete
 
- * Use **POST** to post an item:
-
-    https://localhost:7097/groceryitems/
+ * Use **POST** to post an item: https://localhost:7097/groceryitems/
 
     body:
      {
@@ -21,8 +19,7 @@ Routes Include:
         "isComplete": false
      }
 
- * Use **Put** to edit an item:
-     https://localhost:7097/groceryitems/2
+ * Use **Put** to edit an item: https://localhost:7097/groceryitems/2
 
      body:
     {
@@ -31,8 +28,7 @@ Routes Include:
         "isComplete": true
     }
 
- * Use **DELETE** to delete an item:
-      https://localhost:7097/groceryitems/2
+ * Use **DELETE** to delete an item: https://localhost:7097/groceryitems/2
 
 
 
