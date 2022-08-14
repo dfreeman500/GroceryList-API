@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 
+
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<GroceryDb>(opt => opt.UseInMemoryDatabase("GroceryList"));
+builder.Services.AddDbContext<GroceryDb>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("GroceryDb") ?? throw new InvalidOperationException("Connection string 'GroceryDb' not found.")));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 
