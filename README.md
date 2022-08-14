@@ -7,6 +7,8 @@ Routes Include:
 
  * Use **GET** to obtain all items: https://localhost:7097/groceryitems
 
+ * Use **GET** and id to obtain all 1 item: https://localhost:7097/groceryitems/2
+
  * Use **GET** to obtain incomplete items: https://localhost:7097/groceryitems/incomplete
 
  * Use **GET** to obtain complete items: https://localhost:7097/groceryitems/complete
@@ -31,6 +33,8 @@ Routes Include:
  * Use **DELETE** to delete an item: https://localhost:7097/groceryitems/2
 
 
+ <!-- ![Postman image] -->
+<img src="images/screenshot.png" width="400" >
 
 
 # Future directions:
