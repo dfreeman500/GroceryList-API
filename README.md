@@ -1,6 +1,6 @@
 # Grocery API
 
-This minimal API uses Entity Framework and SQL Server storage to allow anyone to GET, Post, Put, or Delete grocery list items. 
+This minimal API uses Entity Framework and SQL Server to allow anyone to GET, Post, Put, or Delete grocery list items. 
 
 
 Routes Include:
@@ -43,6 +43,8 @@ Routes Include:
 [ ] Unit tests
 
 [ ] Implement authentication
+
+
 
 
 
